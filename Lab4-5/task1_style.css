@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 20px;
+    background-color: #909483;
+    text-align: center;
+    padding: 5px;
+}
+
+.menu{
+    height: 20px;
+    background-color: #ededed;
+    text-align: center;
+    padding: 5px;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: #616657;
+    padding: 0 10px;
+}
+
+main{
+    flex: 1;
+    padding: 20px;
+}
+
+footer{
+    height: 20px;
+    background-color: #909483;
+    text-align: center;
+    padding: 5px;
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Банани",
+        "category": "grocery",
+        "amount": 37,
+        "image": "https://img.tsn.ua/cached/870/tsn-fc8d4bb0191801bebf97b41f256288af/thumbs/1200x630/bb/20/6d6cae4d1af7f1cdde2359f721d720bb.jpeg"
+    },
+    {
+        "name": "Сир",
+        "category": "grocery",
+        "amount": 16,
+        "image": ""
+    },
+    {
+        "name": "Вівсяні пластівці",
+        "category": "grocery",
+        "amount": 46,
+        "image": ""
+    },
+    {
+        "name": "Цукерки желейні",
+        "category": "grocery",
+        "amount": 68,
+        "image": ""
+    },
+    {
+        "name": "Яйця (10 шт.)",
+        "category": "grocery",
+        "amount": 50,
+        "image": ""
+    },
+    {
+        "name": "Заморожені овочі",
+        "category": "grocery",
+        "amount": 31,
+        "image": ""
+    }
+]

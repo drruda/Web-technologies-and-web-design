@@ -1,0 +1,36 @@
+.base{
+    position: relative;
+    background-color: #f0f0f0;
+    border: 2px solid rgb(45, 37, 37);
+
+    padding: 20px;
+    width: 400px;
+    line-height: 1.5;
+}
+
+.block1{
+    position: relative;
+    background-color: #42b642;
+    border: 2px solid rgb(45, 37, 37);
+    padding: 5px 15px;
+}
+
+.block2{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    width: 200px;
+    height: 100px;
+    z-index: 10;
+
+    padding: 10px;
+    text-align: center;
+
+    background-color: #51c8e6;
+    border: 2px solid rgb(45, 37, 37);
+}
+
+.block1:hover .block2{
+    display: block;
+}

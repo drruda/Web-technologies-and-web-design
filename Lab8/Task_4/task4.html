@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <form name="form" onsubmit="return validateForm()">
+        <h2>Форма підбору будинку</h2>
+        <p>Прізвище: <input type="text" name="surname">
+            <span id="surnamef" class="error"></span></p>
+        
+        <p>Ім'я: <input type="text" name="name">
+            <span id="namef" class="error"></span></p>
+        
+        <p>Email: <input type="text" name="email">
+            <span id="emailf" class="error"></span></p>
+        
+            <p>Номер телефону:<input type="text" name="phone">
+            <span id="phonef" class="error"></span></p>
+        
+        <hr>
+        <p>
+            Оберіть тип житла: <br>
+            <input type="radio" name="house_type" value="apartment"> Квартира<br>
+            <input type="radio" name="house_type" value="house"> Таунхаус<br>
+            <input type="radio" name="house_type" value="cottage"> Будинок<br>
+            <span id="typef" class="error"></span>
+        </p>
+        <p>
+            <label>Оберіть кількість кімнат:</label>
+            <select id="rooms" name="rooms">
+                <option value="0">- - - - -</option>
+                <option value="1">Однокімнатні</option>
+                <option value="2">Двокімнатні</option>
+                <option value="3">Трикімнатні</option>
+                <option value="4+">Більше</option>
+            </select>
+            <span id="roomsf" class="error"></span>
+        </p>
+
+        <hr>
+        <label for="price">Оберіть бажану ціну:</label>
+        <input type="range" id="priceRange" name="price" min="500" max="30000" step="50" value="3500"
+            oninput="updatePrice(this.value)">
+        <span id="priceValue">3500</span>₴
+
+        <hr>
+        <div>
+            <label>Є домашні тварини</label>
+            <input type="checkbox" name="pets">
+        </div><br>
+        
+        <div>
+            <label for="comments">Додаткові побажання:</label>
+            <textarea id="comments" name="comments"></textarea>
+        </div><br>
+
+        <button type="submit">Відправити</button>
+        <button type="reset">Скасувати</button>
+    </form>
+    <script src="script4.js"></script>
+</body>
+</html>

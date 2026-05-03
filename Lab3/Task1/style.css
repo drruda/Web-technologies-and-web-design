@@ -1,0 +1,45 @@
+body{
+    background-color: #e1e1e1;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+.title {
+    Text-align: center;
+    Text-decoration: underline;
+    Font-weight: 600;
+    Font-size: 18px;
+    Color: #333333;
+    padding-bottom: 50px;
+}
+
+.autor,
+.topic,
+.definition {
+    Float: left;
+    padding: 20px;
+    margin: 5px;
+    height: 200px;
+}
+
+.autor {
+    Width: 250px;
+    Background-color: #4583e6;
+    Color: #ffffff;
+}
+
+.topic {
+    Width: 250px;
+    Background-color: #336e20;
+    Color: #ffffff;
+}
+
+.definition {
+    Width: 250px;
+    Background-color: #751c93;
+    Color: #ffffff;
+}

@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    flex-direction: column;
+}
+
+header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: #333;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.menu {
+    height: 20px;
+    background-color:#909483;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #ededed;
+    font-size: 18px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    height: 20px;
+    background-color: #909483;
+    color: #ededed;
+    padding: 5px 25px;
+    margin-top: 10px;
+}
+
+.logo-image {
+    height: 60px;
+    padding-right: 15px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.caption {
+    text-align: center;
+    color: #333;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #909483;
+}
+
+.main-nav ul li {
+    position: relative;
+}
+
+.main-nav ul li a {
+    display: block;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-nav ul li a:hover {
+    background-color: #C19386;
+}
+
+.main-nav ul li ul.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #C19386;
+    min-width: 150px;
+    z-index: 1000;
+    border-radius: 4px;
+}
+
+.main-nav ul li:hover ul.submenu {
+    display: block;
+}
+
+.main-nav ul li ul.submenu li a {
+    padding: 10px 15px;
+    font-weight: normal;
+}
+
+.main-nav ul li ul.submenu li a:hover {
+    background-color: #B25C40;
+}
+
+

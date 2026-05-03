@@ -1,0 +1,29 @@
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+th,td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.total-label {
+    text-align: right;
+    font-weight: bold;
+    background-color: #eee;
+}
+
+.total-amount {
+    font-weight: bold;
+    color: #ff0000;
+    background-color: #eee;
+}
