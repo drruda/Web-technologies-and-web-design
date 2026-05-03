@@ -9,30 +9,30 @@
         "name": "Сир",
         "category": "grocery",
         "amount": 16,
-        "image": ""
+        "image": "https://cheese-map.com/image/catalog/pictures/blog/bri.jpg"
     },
     {
         "name": "Вівсяні пластівці",
         "category": "grocery",
         "amount": 46,
-        "image": ""
+        "image": "https://ukr.media/static/ba/aimg/4/2/5/425967_1.jpg"
     },
     {
         "name": "Цукерки желейні",
         "category": "grocery",
         "amount": 68,
-        "image": ""
+        "image": "https://content2.rozetka.com.ua/goods/images/big/388673372.png"
     },
     {
         "name": "Яйця (10 шт.)",
         "category": "grocery",
         "amount": 50,
-        "image": ""
+        "image": "https://duflu.org.ua/wp-content/uploads/2026/03/termin-prydatnosti-yayecz.jpg"
     },
     {
         "name": "Заморожені овочі",
         "category": "grocery",
         "amount": 31,
-        "image": ""
+        "image": "https://images.prom.ua/2165966883_w$%7Bwidth%7D_h$%7Bheight%7D_yak-smachno-prigotuvati.jpg"
     }
 ]
