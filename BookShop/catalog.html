@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html lang="uk">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LIBRO | Home</title>
+    <title>Каталог | LIBRO</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="catalog.css">
 </head>
-
 <body>
     <header>
         <div class="container header-flex">
@@ -26,21 +24,40 @@
             </div>
         </div>
     </header>
-
-    <main>
-        <section class="hero">
-            <div class="container">
-                <div class="hero-text">
-                    <h1>Відкрийте нові світи на кожній сторінці</h1>
-                    <p>Колекція найкращих творів від класики до сучасних графічних новел.</p>
-                    <a href="catalog.html" class="btn-primary">Переглянути каталог</a>
+    
+    <main class="container catalog-page">
+        <aside class="filters">
+            <h3>Фільтри</h3>
+            <div class="filter-group">
+                <h4>Жанри</h4>
+                <label class="checkbox-group"><input type="checkbox"> Фантастика</label>
+                <label class="checkbox-group"><input type="checkbox"> Класика</label>
+                <label class="checkbox-group"><input type="checkbox"> Психологія</label>
+                <label class="checkbox-group"><input type="checkbox"> Історія</label>
+            </div>
+            <div class="filter-group">
+                <h4>Ціна</h4>
+                <input type="range" min="100" max="2000" step="50" class="price-range">
+                <div class="price-inputs">
+                    <span>від 100 ₴</span>
+                    <span>до 2000 ₴</span>
                 </div>
             </div>
-        </section>
-
-        <section class="container products">
-            <h2 class="section-title">Зараз читають</h2>
+            <button class="btn-auth">Застосувати</button>
+        </aside>
+    
+        <section class="catalog-content">
+            <div class="catalog-header">
+                <h2>Всі книги</h2>
+                <select class="sort-select">
+                    <option>Спочатку нові</option>
+                    <option>Спочатку дешеві</option>
+                    <option>За рейтингом</option>
+                </select>
+            </div>
+    
             <div class="book-grid">
+                <!-- Картка 1 -->
                 <div class="book-card">
                     <div class="book-image"></div>
                     <div class="book-info">
@@ -53,6 +70,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- Картка 2 -->
                 <div class="book-card">
                     <div class="book-image"></div>
                     <div class="book-info">
@@ -65,6 +83,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- Картка 3 -->
                 <div class="book-card">
                     <div class="book-image"></div>
                     <div class="book-info">
@@ -77,16 +96,27 @@
                         </div>
                     </div>
                 </div>
+                <!-- Картка 4 (додаткова для сітки) -->
+                <div class="book-card">
+                    <div class="book-image"></div>
+                    <div class="book-info">
+                        <span class="category">Фантастика</span>
+                        <h3>Фундація</h3>
+                        <p class="author">Айзек Азімов</p>
+                        <div class="card-footer">
+                            <span class="price">510 ₴</span>
+                            <button class="buy-icon">+</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
-
+    
     <footer>
         <div class="container">
             <p>&copy; 2026 Libro Books. Твій затишний куточок для читання.</p>
         </div>
     </footer>
-
 </body>
-
 </html>
