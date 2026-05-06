@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог | LIBRO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="catalog.css">
+</head>
+<body>
+    <header>
+        <div class="container header-flex">
+            <div class="logo"><a href="homePage.html">LIBRO<span>.</span></a></div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="#">Бестселери</a></li>
+                    <li><a href="offers.html">Пропозиції</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="LogIn.html" class="btn-login">Увійти</a>
+                <a href="SignUp.html" class="btn-register">Зареєструватися</a>
+            </div>
+        </div>
+    </header>
+    
+    <main class="container catalog-page">
+        <aside class="filters">
+            <h3>Фільтри</h3>
+            <h4 class="filter-group">Жанри</h4>
+        
+            <div id="category-list"></div>
+            <button id="see-all" class="btn-auth" style="margin-top: 15px; width: 100%;">Скинути фільтри</button>
+        </aside>
+    
+        <section class="catalog-content">
+            <div class="catalog-header">
+                <h2>Всі книги</h2>
+                <select class="sort-select">
+                    <option>Спочатку нові</option>
+                    <option>Спочатку дешеві</option>
+                    <option>За рейтингом</option>
+                </select>
+            </div>
+    
+            <div class="book-grid" id="book-grid"></div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Libro Books. Твій затишний куточок для читання.</p>
+        </div>
+    </footer>
+
+    <script src="catalog.js"></script>
+</body>
+</html>
