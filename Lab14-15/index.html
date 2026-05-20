@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title> Магазин автозапчастин</title>
+    </head>
+
+    <body>
+        <form action="processorder.php" method=post>
+            <b> П. І. Пб. замовника: </b>
+            <input type="text" name="fam" size=40> <br>
+            <table border=0>
+                <tr>
+                <tr bgcolor=#cccccc>
+                    <td align=center> Виріб</td>
+                    <td align=center width=150> Найменування</td>
+                    <td align=center width=20> Кількість </td>
+                </tr>
+
+                <tr>
+                    <td align=center> Шини </td>
+                    <td align=center><input type="text" name="tireqty" size=3 maxlength=3></td>
+                    <td align=center><input type="text" name="tireqtyc" size=3 maxlength=3></td>
+                </tr>
+
+                <tr>
+                    <td align=center> Машинне мастило</td>
+                    <td align=center><input type="text" name="oilty" size=3 maxlength=3></td>
+                    <td align=center><input type="text" name="oiltyc" size=3 maxlength=3></td>
+                </tr>
+
+                <tr>
+                    <td align=center> Свічки запалювання</td>
+                    <td align=center><input type="text" name="Sparkqty" size=3 maxlength=3></td>
+                    <td align=center><input type="text" name="Sparkqtyc" size=3 maxlength=3></td>
+                </tr>
+            </table>
+            <tr>
+                <td colspan=2><input type=submit name=submit value="Ввести замовлення"></td>
+            </tr>
+        </form>
+    </body>
+</html>
